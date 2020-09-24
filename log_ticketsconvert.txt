@@ -1,0 +1,759 @@
+INFO: Running assembla2github.py v4 (2020-09-16)
+INFO: Reading configuration from 'config.json'
+INFO: Reading authentication data from 'auth.json'
+INFO: Parsing dumpfile '../assembla-data-20200917T1242/portaudio-2020-09-16/portaudio/dump.js'
+INFO:     Parsed 11836 lines
+INFO: Indexing the data
+INFO: Parsing wiki dumpfile 'scrapedwiki20200917T0114.dat'
+INFO:     Found 275 wiki page entries
+INFO: Scraping for user IDs
+INFO: Parsing user dumpfile 'scrapedusers_noemail_20200816T1941.dat'
+WARNING: Skipping user 'cGikqsGWSr368NeJe5cbCb'. Not mentioned in main dump file
+WARNING: Skipping user 'cPLs_a1C4r6ykTaIC_Qgzw'. Not mentioned in main dump file
+WARNING: Skipping user 'alp2nYPaCr4R95acwqjQXA'. Not mentioned in main dump file
+WARNING: Skipping user 'cZnZiKVtqr5ktcdmr6bg7m'. Not mentioned in main dump file
+WARNING: Skipping user 'bM9e1GU68r5iFcacwqjQWU'. Not mentioned in main dump file
+WARNING: Skipping user 'a36wzC2gWr6z_ccK-zJOy8'. Not mentioned in main dump file
+WARNING: Skipping user 'dBdyiyNwir5ipdacwqjQYw'. Not mentioned in main dump file
+WARNING: Skipping user 'cWNpq0QByr4zr3acwqjQWU'. Not mentioned in main dump file
+WARNING: Missing user data for ['dummy', 'b32LDmnZer5OocacwqEsg8', 'ao-Aaiyayr54kcdmr6bg7m', 'cQV8Ku58Or6QhcaIC_Qgzw', 'bf9TDOeiSr5RBcdmr6bg7m', 'bgT51UkFar36NDeJe5afGb']
+INFO:     Found 56 user entries
+INFO: Executing command 'ticketsconvert'
+WARNING:    Assembla ticket #223 missing, injecting dummy issue
+INFO: Converting milestones -> milestones...
+INFO:     Creating milestone: 'V19-SS2'
+INFO:     Creating milestone: 'V19-M1'
+INFO:     Creating milestone: 'V19-SS3'
+INFO:     Creating milestone: 'V19-M2'
+INFO:     Creating milestone: 'V19-M3'
+INFO:     Creating milestone: 'V19-M4'
+INFO:     Creating milestone: 'V19'
+INFO:     Creating milestone: 'V20'
+INFO: Converting ticket statuses and tags -> labels...
+INFO:     Skipping exiting label 'documentation'
+INFO:     Skipping exiting label 'duplicate'
+INFO:     Skipping exiting label 'enhancement'
+INFO:     Skipping exiting label 'good first issue'
+INFO:     Skipping exiting label 'help wanted'
+INFO:     Skipping exiting label 'invalid'
+INFO:     Skipping exiting label 'question'
+INFO:     Skipping exiting label 'wontfix'
+INFO:     Creating label: 'bindings'
+INFO:     Creating label: 'bindings-cpp'
+INFO:     Creating label: 'bindings-java'
+INFO:     Creating label: 'build'
+INFO:     Creating label: 'build-cmake'
+INFO:     Creating label: 'build-autoconf'
+INFO:     Creating label: 'build-msvs'
+INFO:     Creating label: 'src-common'
+INFO:     Creating label: 'audit'
+INFO:     Creating label: 'src-alsa'
+INFO:     Creating label: 'src-asihpi'
+INFO:     Creating label: 'src-asio'
+INFO:     Creating label: 'src-coreaudio'
+INFO:     Creating label: 'src-dsound'
+INFO:     Creating label: 'src-jack'
+INFO:     Creating label: 'src-oss'
+INFO:     Creating label: 'src-wasapi'
+INFO:     Creating label: 'src-wdmks'
+INFO:     Creating label: 'src-wmme'
+INFO:     Creating label: 'src-os-mac_osx'
+INFO:     Creating label: 'src-os-win'
+INFO:     Creating label: 'public-api'
+INFO:     Creating label: 'test'
+INFO:     Creating label: 'test-qa'
+INFO:     Creating label: 'test-examples'
+INFO:     Creating label: 'website'
+INFO:     Creating label: 'P0'
+INFO:     Creating label: 'P1'
+INFO:     Creating label: 'P2'
+INFO:     Creating label: 'P3'
+INFO:     Creating label: 'P4'
+INFO:     Creating label: 'P5'
+INFO:     Creating label: 'osx'
+INFO:     Creating label: 'linux'
+INFO:     Creating label: 'windows'
+INFO:     Creating label: 'git'
+INFO:     Creating label: 'LIST-REVIEW'
+INFO:     Creating label: 'IN-REVIEW'
+INFO:     Creating label: 'STARTER'
+INFO:     Creating label: 'STARTER-PLUS'
+INFO:     Creating label: 'QA'
+INFO:     Creating label: 'portmixer'
+INFO: Converting tickets -> issues...
+INFO:   Uploading ticket #1
+INFO:   Remaining ratelimit quota: 4930 (will reset at 2020-09-24 12:09:16+10:00)
+   ....  done, issue #1
+INFO:   Uploading ticket #2
+   ...  done, issue #2
+INFO:   Uploading ticket #3
+   ...  done, issue #3
+INFO:   Uploading ticket #4
+   ....  done, issue #4
+INFO:   Uploading ticket #5
+   .....  done, issue #5
+INFO:   Uploading ticket #6
+   ...  done, issue #6
+INFO:   Uploading ticket #7
+   ...  done, issue #7
+INFO:   Uploading ticket #8
+   ...  done, issue #8
+INFO:   Uploading ticket #9
+   ...  done, issue #9
+WARNING: Ticket #10: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/compare/portaudio'
+WARNING: Ticket #10.7: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/compare/portaudio'
+INFO:   Uploading ticket #10
+   .....  done, issue #10
+INFO: Ticket #11.6: Inserting reference to attachment 'portaudio-deviceschanged.patch'
+WARNING: Ticket #11.7: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3784323?section=commits'
+WARNING: Ticket #11.8: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3784323?section=commits'
+WARNING: Ticket #11.9: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3784323?section=commits'
+INFO:   Uploading ticket #11
+   .....  done, issue #11
+INFO:   Uploading ticket #12
+   ...  done, issue #12
+INFO:   Uploading ticket #13
+   ....  done, issue #13
+INFO:   Uploading ticket #14
+   ..  done, issue #14
+INFO:   Uploading ticket #15
+   ...  done, issue #15
+INFO:   Uploading ticket #16
+   ...  done, issue #16
+INFO:   Uploading ticket #17
+   ....  done, issue #17
+INFO:   Uploading ticket #18
+   ....  done, issue #18
+INFO:   Uploading ticket #19
+   ...  done, issue #19
+INFO:   Uploading ticket #20
+INFO:   Remaining ratelimit quota: 4844 (will reset at 2020-09-24 12:09:16+10:00)
+   ..  done, issue #20
+INFO:   Uploading ticket #21
+   ....  done, issue #21
+INFO:   Uploading ticket #22
+   ...  done, issue #22
+INFO:   Uploading ticket #23
+   ...  done, issue #23
+INFO:   Uploading ticket #24
+   ...  done, issue #24
+INFO:   Uploading ticket #25
+   .....  done, issue #25
+INFO:   Uploading ticket #26
+   ...  done, issue #26
+INFO:   Uploading ticket #27
+   ....  done, issue #27
+INFO:   Uploading ticket #28
+   ...  done, issue #28
+INFO:   Uploading ticket #29
+   ....  done, issue #29
+INFO:   Uploading ticket #30
+   ...  done, issue #30
+INFO:   Uploading ticket #31
+   ....  done, issue #31
+INFO:   Uploading ticket #32
+   ...  done, issue #32
+INFO:   Uploading ticket #33
+   ...  done, issue #33
+INFO:   Uploading ticket #34
+   ...  done, issue #34
+WARNING: Ticket #35: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/nodes/1930/portaudio/trunk/src/common/pa_converters.c'
+INFO:   Uploading ticket #35
+   ....  done, issue #35
+INFO:   Uploading ticket #36
+   ..  done, issue #36
+INFO:   Uploading ticket #37
+   ...  done, issue #37
+INFO:   Uploading ticket #38
+   ...  done, issue #38
+INFO:   Uploading ticket #39
+   ....  done, issue #39
+INFO:   Uploading ticket #40
+   ...  done, issue #40
+INFO:   Uploading ticket #41
+INFO:   Remaining ratelimit quota: 4754 (will reset at 2020-09-24 12:09:16+10:00)
+   ..  done, issue #41
+INFO:   Uploading ticket #42
+   ...  done, issue #42
+INFO:   Uploading ticket #43
+   ...  done, issue #43
+INFO:   Uploading ticket #44
+   ...  done, issue #44
+INFO:   Uploading ticket #45
+   ..  done, issue #45
+INFO:   Uploading ticket #46
+   ..  done, issue #46
+INFO:   Uploading ticket #47
+   ....  done, issue #47
+INFO:   Uploading ticket #48
+   ...  done, issue #48
+INFO:   Uploading ticket #49
+   .....  done, issue #49
+INFO:   Uploading ticket #50
+   ...  done, issue #50
+INFO:   Uploading ticket #51
+   ...  done, issue #51
+INFO:   Uploading ticket #52
+   ..  done, issue #52
+INFO:   Uploading ticket #53
+   ...  done, issue #53
+INFO: Ticket #54.5: Inserting reference to attachment 'pa_win_ds.c'
+INFO:   Uploading ticket #54
+   ...  done, issue #54
+INFO:   Uploading ticket #55
+   ..  done, issue #55
+INFO:   Uploading ticket #56
+   ...  done, issue #56
+INFO: Ticket #57.9: Inserting reference to attachment 'PA_AsioBlockingIo_20080212.zip'
+INFO:   Uploading ticket #57
+   ....  done, issue #57
+INFO: Ticket #58.6: Inserting reference to attachment 'Ticket58.patch'
+INFO:   Uploading ticket #58
+   ....  done, issue #58
+INFO:   Uploading ticket #59
+   ..  done, issue #59
+INFO:   Uploading ticket #60
+   ..  done, issue #60
+INFO:   Uploading ticket #61
+   ...  done, issue #61
+INFO:   Uploading ticket #62
+   ....  done, issue #62
+INFO:   Uploading ticket #63
+   ....  done, issue #63
+INFO:   Uploading ticket #64
+INFO:   Remaining ratelimit quota: 4662 (will reset at 2020-09-24 12:09:16+10:00)
+   ....  done, issue #64
+INFO:   Uploading ticket #65
+   ..  done, issue #65
+INFO:   Uploading ticket #66
+   ..  done, issue #66
+INFO:   Uploading ticket #67
+   ..  done, issue #67
+INFO:   Uploading ticket #68
+   ..  done, issue #68
+WARNING: Ticket #69: Wiki links to unknown page 'RulesForSvnCommitters'
+INFO:   Uploading ticket #69
+   .....  done, issue #69
+INFO:   Uploading ticket #70
+   ...  done, issue #70
+INFO:   Uploading ticket #71
+   ...  done, issue #71
+INFO:   Uploading ticket #72
+   ..  done, issue #72
+INFO:   Uploading ticket #73
+   ...  done, issue #73
+INFO:   Uploading ticket #74
+   ..  done, issue #74
+INFO:   Uploading ticket #75
+   ...  done, issue #75
+INFO:   Uploading ticket #76
+   ..  done, issue #76
+INFO:   Uploading ticket #77
+   ....  done, issue #77
+INFO:   Uploading ticket #78
+   ....  done, issue #78
+INFO:   Uploading ticket #79
+   ..  done, issue #79
+INFO:   Uploading ticket #80
+   ....  done, issue #80
+INFO:   Uploading ticket #81
+   ..  done, issue #81
+INFO:   Uploading ticket #82
+   ...  done, issue #82
+INFO:   Uploading ticket #83
+   ....  done, issue #83
+INFO:   Uploading ticket #84
+   ....  done, issue #84
+INFO:   Uploading ticket #85
+   ..  done, issue #85
+INFO:   Uploading ticket #86
+   ...  done, issue #86
+INFO:   Uploading ticket #87
+INFO:   Remaining ratelimit quota: 4572 (will reset at 2020-09-24 12:09:16+10:00)
+   ..  done, issue #87
+INFO:   Uploading ticket #88
+   ....  done, issue #88
+INFO:   Uploading ticket #89
+   ..  done, issue #89
+INFO: Ticket #90.2: Inserting reference to attachment 'CMakeLists.txt'
+INFO: Ticket #90.3: Inserting reference to attachment 'patest.cpp'
+INFO:   Uploading ticket #90
+   ..  done, issue #90
+INFO:   Uploading ticket #91
+   ...  done, issue #91
+INFO:   Uploading ticket #92
+   ...  done, issue #92
+INFO:   Uploading ticket #93
+   ...  done, issue #93
+INFO:   Uploading ticket #94
+   ...  done, issue #94
+INFO:   Uploading ticket #95
+   ....  done, issue #95
+INFO:   Uploading ticket #96
+   ....  done, issue #96
+INFO:   Uploading ticket #97
+   ....  done, issue #97
+INFO:   Uploading ticket #98
+   ....  done, issue #98
+INFO:   Uploading ticket #99
+   ...  done, issue #99
+INFO:   Uploading ticket #100
+   ...  done, issue #100
+INFO:   Uploading ticket #101
+   ...  done, issue #101
+INFO:   Uploading ticket #102
+   ...  done, issue #102
+INFO:   Uploading ticket #103
+   ..  done, issue #103
+INFO:   Uploading ticket #104
+   ..  done, issue #104
+INFO:   Uploading ticket #105
+   ...  done, issue #105
+INFO:   Uploading ticket #106
+   ..  done, issue #106
+INFO:   Uploading ticket #107
+   ..  done, issue #107
+INFO:   Uploading ticket #108
+   ..  done, issue #108
+INFO:   Uploading ticket #109
+   ..  done, issue #109
+INFO:   Uploading ticket #110
+INFO:   Remaining ratelimit quota: 4484 (will reset at 2020-09-24 12:09:16+10:00)
+   ..  done, issue #110
+INFO:   Uploading ticket #111
+   ...  done, issue #111
+INFO:   Uploading ticket #112
+   ...  done, issue #112
+INFO:   Uploading ticket #113
+   ..  done, issue #113
+INFO:   Uploading ticket #114
+   ...  done, issue #114
+INFO:   Uploading ticket #115
+   ..  done, issue #115
+INFO:   Uploading ticket #116
+   ..  done, issue #116
+INFO:   Uploading ticket #117
+   ..  done, issue #117
+INFO:   Uploading ticket #118
+   ..  done, issue #118
+INFO:   Uploading ticket #119
+   ..  done, issue #119
+INFO:   Uploading ticket #120
+   ..  done, issue #120
+INFO:   Uploading ticket #121
+   ...  done, issue #121
+INFO:   Uploading ticket #122
+   ..  done, issue #122
+INFO:   Uploading ticket #123
+   ..  done, issue #123
+INFO:   Uploading ticket #124
+   ..  done, issue #124
+INFO:   Uploading ticket #125
+   ..  done, issue #125
+INFO:   Uploading ticket #126
+   ..  done, issue #126
+INFO:   Uploading ticket #127
+   ...  done, issue #127
+INFO:   Uploading ticket #128
+   ....  done, issue #128
+INFO:   Uploading ticket #129
+   ....  done, issue #129
+INFO:   Uploading ticket #130
+   ..  done, issue #130
+INFO:   Uploading ticket #131
+   ..  done, issue #131
+INFO:   Uploading ticket #132
+   .......  done, issue #132
+INFO:   Uploading ticket #133
+   ..  done, issue #133
+INFO:   Uploading ticket #134
+INFO:   Remaining ratelimit quota: 4398 (will reset at 2020-09-24 12:09:16+10:00)
+   ..  done, issue #134
+INFO:   Uploading ticket #135
+   ..  done, issue #135
+INFO:   Uploading ticket #136
+   ..  done, issue #136
+INFO:   Uploading ticket #137
+   ..  done, issue #137
+INFO:   Uploading ticket #138
+   ..  done, issue #138
+INFO:   Uploading ticket #139
+   ..  done, issue #139
+INFO:   Uploading ticket #140
+   ..  done, issue #140
+INFO:   Uploading ticket #141
+   ..  done, issue #141
+INFO:   Uploading ticket #142
+   ..  done, issue #142
+INFO:   Uploading ticket #143
+   ..  done, issue #143
+INFO:   Uploading ticket #144
+   ..  done, issue #144
+INFO:   Uploading ticket #145
+   ....  done, issue #145
+INFO:   Uploading ticket #146
+   ....  done, issue #146
+INFO:   Uploading ticket #147
+   ...  done, issue #147
+INFO:   Uploading ticket #148
+   ..  done, issue #148
+INFO:   Uploading ticket #149
+   ..  done, issue #149
+INFO:   Uploading ticket #150
+   ..  done, issue #150
+INFO:   Uploading ticket #151
+   ...  done, issue #151
+INFO:   Uploading ticket #152
+   ..  done, issue #152
+INFO: Ticket #153.4: Inserting reference to attachment 'alsalessthan1.0.16.patch'
+INFO:   Uploading ticket #153
+   ...  done, issue #153
+INFO:   Uploading ticket #154
+   ..  done, issue #154
+INFO:   Uploading ticket #155
+   ..  done, issue #155
+INFO:   Uploading ticket #156
+   ..  done, issue #156
+INFO:   Uploading ticket #157
+   ...  done, issue #157
+WARNING: Ticket #158.3: Link to Assembla: 'https://www.assembla.com/spaces/portaudio/git/merge_requests/3218623'
+INFO:   Uploading ticket #158
+   .....  done, issue #158
+INFO:   Uploading ticket #159
+   ..  done, issue #159
+INFO:   Uploading ticket #160
+   ...  done, issue #160
+INFO:   Uploading ticket #161
+INFO:   Remaining ratelimit quota: 4305 (will reset at 2020-09-24 12:09:16+10:00)
+   ...  done, issue #161
+INFO:   Uploading ticket #162
+   ...  done, issue #162
+INFO:   Uploading ticket #163
+   ...  done, issue #163
+INFO:   Uploading ticket #164
+   ...  done, issue #164
+INFO:   Uploading ticket #165
+   ...  done, issue #165
+INFO:   Uploading ticket #166
+   ...  done, issue #166
+INFO:   Uploading ticket #167
+   ...  done, issue #167
+INFO: Ticket #168.2: Inserting reference to attachment 'pauint8_bug.txt'
+INFO:   Uploading ticket #168
+   ...  done, issue #168
+INFO:   Uploading ticket #169
+   ...  done, issue #169
+INFO:   Uploading ticket #170
+   ...  done, issue #170
+INFO:   Uploading ticket #171
+   ...  done, issue #171
+INFO:   Uploading ticket #172
+   .  done, issue #172
+WARNING: Ticket #173.3: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/changesets/1922#commit/comment'
+INFO:   Uploading ticket #173
+   ....  done, issue #173
+INFO:   Uploading ticket #174
+   ..  done, issue #174
+INFO:   Uploading ticket #175
+   .....  done, issue #175
+INFO:   Uploading ticket #176
+   ..  done, issue #176
+INFO:   Uploading ticket #177
+   ..  done, issue #177
+INFO: Ticket #178.5: Inserting reference to attachment 'patest_suggested_vs_streaminfo_latency_44100_wmme.pdf'
+INFO:   Uploading ticket #178
+   ....  done, issue #178
+INFO:   Uploading ticket #179
+   ...  done, issue #179
+INFO:   Uploading ticket #180
+INFO:   Remaining ratelimit quota: 4230 (will reset at 2020-09-24 12:09:16+10:00)
+   ..  done, issue #180
+INFO:   Uploading ticket #181
+   ..  done, issue #181
+INFO:   Uploading ticket #182
+   ....  done, issue #182
+INFO:   Uploading ticket #183
+   ....  done, issue #183
+INFO:   Uploading ticket #184
+   ....  done, issue #184
+WARNING: Ticket #185.4: Reference to unknown attachment 'ccylRKsjGr4BoxacwqjQXA'
+INFO: Ticket #185.5: Inserting reference to attachment 'PA_latency_results_44100Hz_20110818.pdf'
+INFO:   Uploading ticket #185
+   ...  done, issue #185
+INFO:   Uploading ticket #186
+   ...  done, issue #186
+INFO:   Uploading ticket #187
+   ...  done, issue #187
+INFO:   Uploading ticket #188
+   ...  done, issue #188
+INFO:   Uploading ticket #189
+   ....  done, issue #189
+INFO:   Uploading ticket #190
+   ..  done, issue #190
+INFO:   Uploading ticket #191
+   ....  done, issue #191
+INFO:   Uploading ticket #192
+   ..  done, issue #192
+INFO:   Uploading ticket #193
+   ..  done, issue #193
+INFO:   Uploading ticket #194
+   ..  done, issue #194
+INFO:   Uploading ticket #195
+   ....  done, issue #195
+WARNING: Ticket #196.4: Link to Assembla: 'http://www.assembla.com/profile/dmitrykos'
+WARNING: Ticket #196.6: Link to Assembla: 'http://www.assembla.com/profile/dmitrykos'
+INFO:   Uploading ticket #196
+   ......  done, issue #196
+INFO:   Uploading ticket #197
+   ...  done, issue #197
+WARNING: Ticket #198: Change history inconsistency in {'tags': {'apple'}}. Expected final value {'tags': {'osx'}}
+INFO:   Uploading ticket #198
+   ..  done, issue #198
+INFO:   Uploading ticket #199
+   ...  done, issue #199
+INFO:   Uploading ticket #200
+   ..  done, issue #200
+INFO: Ticket #201.2: Inserting reference to attachment 'ticket_201_patest_enumerate_default_latency.patch'
+INFO:   Uploading ticket #201
+   ....  done, issue #201
+INFO:   Uploading ticket #202
+INFO:   Remaining ratelimit quota: 4140 (will reset at 2020-09-24 12:09:16+10:00)
+   ..  done, issue #202
+INFO:   Uploading ticket #203
+   ..  done, issue #203
+INFO:   Uploading ticket #204
+   ..  done, issue #204
+INFO:   Uploading ticket #205
+   ..  done, issue #205
+INFO:   Uploading ticket #206
+   ..  done, issue #206
+INFO:   Uploading ticket #207
+   .  done, issue #207
+INFO:   Uploading ticket #208
+   ..  done, issue #208
+INFO:   Uploading ticket #209
+   ..  done, issue #209
+INFO:   Uploading ticket #210
+   ..  done, issue #210
+WARNING: Ticket #211: Link to Assembla: 'http://www.assembla.com/code/portaudio/subversion/changesets/1815'
+WARNING: Ticket #211: Link to Assembla: 'http://www.assembla.com/code/portaudio/subversion/changesets/1822'
+WARNING: Ticket #211: Link to Assembla: 'https://subversion.assembla.com/svn/portaudio/portaudio/branches/alsa_hw_endian_subdevice'
+INFO: Ticket #211.1: Inserting reference to attachment 'pa_linux_alsa.c'
+INFO:   Uploading ticket #211
+   ...  done, issue #211
+WARNING: Ticket #212: Link to Assembla: 'http://www.assembla.com/code/portaudio/subversion/changesets/1815'
+WARNING: Ticket #212: Link to Assembla: 'http://www.assembla.com/code/portaudio/subversion/changesets/1822'
+WARNING: Ticket #212: Link to Assembla: 'https://subversion.assembla.com/svn/portaudio/portaudio/branches/alsa_hw_endian_subdevice'
+INFO: Ticket #212.1: Inserting reference to attachment 'pa_linux_alsa.c'
+INFO:   Uploading ticket #212
+   ..  done, issue #212
+INFO:   Uploading ticket #213
+   ..  done, issue #213
+INFO:   Uploading ticket #214
+   .  done, issue #214
+INFO:   Uploading ticket #215
+   ....  done, issue #215
+INFO: Ticket #216.1: Inserting reference to attachment 'mac_configure_patch.txt'
+INFO:   Uploading ticket #216
+   ....  done, issue #216
+INFO:   Uploading ticket #217
+   ..  done, issue #217
+INFO:   Uploading ticket #218
+   ..  done, issue #218
+INFO:   Uploading ticket #219
+   .  done, issue #219
+WARNING: Ticket #220: Link to Assembla: 'https://subversion.assembla.com/svn/portaudio/portaudio/branches/OpenBSD_sndio'
+WARNING: Ticket #220: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/commit/1887'
+WARNING: Ticket #220.1: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/commit/1887'
+INFO:   Uploading ticket #220
+   ..  done, issue #220
+INFO:   Uploading ticket #221
+   ....  done, issue #221
+INFO:   Uploading ticket #222
+   ..  done, issue #222
+INFO:   Uploading ticket #223
+   ..  done, issue #223
+INFO: Ticket #224.1: Inserting reference to attachment 'portaudio_mme_ds_unicode_patch.zip'
+WARNING: Ticket #224.2: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/changesets/1925'
+WARNING: Ticket #224.3: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/changesets/1927'
+INFO:   Uploading ticket #224
+   ...  done, issue #224
+INFO:   Uploading ticket #225
+   .  done, issue #225
+INFO:   Uploading ticket #226
+   ..  done, issue #226
+INFO:   Uploading ticket #227
+   ..  done, issue #227
+INFO:   Uploading ticket #228
+   ....  done, issue #228
+WARNING: Ticket #229: Change history inconsistency in {'tags': {'apple'}}. Expected final value {'tags': {'osx'}}
+WARNING: Ticket #229.7: Link to Assembla: 'https://www.assembla.com/spaces/portaudio/git/merge_requests/3299213'
+WARNING: Ticket #229.10: Link to Assembla: 'https://assembla.com/code/portaudio/git/merge_requests/3299213'
+INFO:   Uploading ticket #229
+   .....  done, issue #229
+INFO:   Uploading ticket #230
+INFO:   Remaining ratelimit quota: 4047 (will reset at 2020-09-24 12:09:16+10:00)
+   ...  done, issue #230
+INFO:   Uploading ticket #231
+   ...  done, issue #231
+INFO:   Uploading ticket #232
+   .  done, issue #232
+INFO:   Uploading ticket #233
+   ..  done, issue #233
+INFO:   Uploading ticket #234
+   ...  done, issue #234
+INFO:   Uploading ticket #235
+   .  done, issue #235
+INFO:   Uploading ticket #236
+   .  done, issue #236
+INFO:   Uploading ticket #237
+   ..  done, issue #237
+INFO:   Uploading ticket #238
+   .  done, issue #238
+INFO:   Uploading ticket #239
+   .  done, issue #239
+INFO: Ticket #240.1: Inserting reference to image 'prob_configure.png'
+INFO: Ticket #240.2: Inserting reference to image 'prob_configure.png'
+WARNING: Ticket #240.4: Link to Assembla: 'https://www.assembla.com/wiki/show/portaudio/ReleaseNotes'
+WARNING: Ticket #240.8: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/6183813'
+INFO:   Uploading ticket #240
+   ....  done, issue #240
+WARNING: Ticket #241: Link to Assembla: 'https://www.assembla.com/wiki/show/portaudio/ReleaseNotes'
+WARNING: Ticket #241.1: Link to Assembla: 'https://www.assembla.com/wiki/show/portaudio/ReleaseNotes'
+INFO:   Uploading ticket #241
+   ..  done, issue #241
+WARNING: Ticket #242: Link to Assembla: 'https://www.assembla.com/wiki/show/portaudio/ReleaseNotes'
+INFO:   Uploading ticket #242
+   .  done, issue #242
+INFO:   Uploading ticket #243
+   ....  done, issue #243
+WARNING: Ticket #244.3: Link to Assembla: 'https://www.assembla.com/spaces/portaudio/subversion/commits/1966'
+INFO:   Uploading ticket #244
+   ...  done, issue #244
+INFO: Ticket #245.1: Inserting reference to attachment 'pa_bug.zip'
+INFO: Ticket #245.2: Inserting reference to attachment 'winfix.diff'
+INFO:   Uploading ticket #245
+   ...  done, issue #245
+INFO:   Uploading ticket #246
+   .  done, issue #246
+INFO:   Uploading ticket #247
+   ..  done, issue #247
+WARNING: Ticket #248.4: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3790093'
+INFO:   Uploading ticket #248
+   ...  done, issue #248
+INFO:   Uploading ticket #249
+   .  done, issue #249
+INFO:   Uploading ticket #250
+   ...  done, issue #250
+WARNING: Ticket #251.2: Reference to unknown attachment 'bI3ZfSArar5OkEdmr6CpXy'
+INFO: Ticket #251.5: Inserting reference to attachment 'pa_linux_alsa.c-cancelability_2.diff'
+INFO: Ticket #251.8: Inserting reference to attachment 'pa_linux_alsa.c-cancelability_4.diff'
+INFO: Ticket #251.9: Inserting reference to attachment 'pa_linux_alsa.c-cancelability_4.diff'
+WARNING: Ticket #251.11: Link to Assembla: 'https://assembla.com/code/portaudio/git/merge_requests/3834073'
+INFO:   Uploading ticket #251
+   .....  done, issue #251
+WARNING: Ticket #252.2: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3752003'
+WARNING: Ticket #252.3: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3829453'
+INFO:   Uploading ticket #252
+   ....  done, issue #252
+INFO:   Uploading ticket #253
+   ..  done, issue #253
+INFO:   Uploading ticket #254
+   ..  done, issue #254
+WARNING: Ticket #255: Link to Assembla: 'https://app.assembla.com/wiki/show/portaudio/Notes_about_building_PortAudio_with_MinGW'
+INFO:   Uploading ticket #255
+   .  done, issue #255
+INFO:   Uploading ticket #256
+   ..  done, issue #256
+WARNING: Ticket #257: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/812'
+INFO:   Uploading ticket #257
+   ..  done, issue #257
+INFO:   Uploading ticket #258
+INFO:   Remaining ratelimit quota: 3956 (will reset at 2020-09-24 12:09:16+10:00)
+   ..  done, issue #258
+INFO:   Uploading ticket #259
+   ..  done, issue #259
+WARNING: Ticket #260.1: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/4012103'
+INFO:   Uploading ticket #260
+   ...  done, issue #260
+INFO:   Uploading ticket #261
+   .  done, issue #261
+INFO:   Uploading ticket #262
+   ..  done, issue #262
+WARNING: Ticket #263.4: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/7612921?section=commits'
+WARNING: Ticket #263.5: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/7613051'
+INFO:   Uploading ticket #263
+   ....  done, issue #263
+INFO:   Uploading ticket #264
+   ..  done, issue #264
+INFO:   Uploading ticket #265
+   ..  done, issue #265
+INFO:   Uploading ticket #266
+   .  done, issue #266
+INFO:   Uploading ticket #267
+   .  done, issue #267
+INFO: Ticket #268.2: Inserting reference to attachment 'pa_linux_alsa.c'
+INFO:   Uploading ticket #268
+   ..  done, issue #268
+INFO:   Uploading ticket #269
+   .  done, issue #269
+INFO:   Uploading ticket #270
+   ..  done, issue #270
+INFO:   Uploading ticket #271
+   ..  done, issue #271
+INFO:   Uploading ticket #272
+   .  done, issue #272
+INFO:   Uploading ticket #273
+   .  done, issue #273
+WARNING: Ticket #274.4: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/tickets/179-build-issues-on-os-x-10-6/details'
+WARNING: Ticket #274.6: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/6183813'
+WARNING: Ticket #274.7: Link to Assembla: 'https://assembla.com/code/portaudio/git/merge_requests/6183813'
+INFO:   Uploading ticket #274
+   ....  done, issue #274
+INFO:   Uploading ticket #275
+   .  done, issue #275
+INFO:   Uploading ticket #276
+   ..  done, issue #276
+INFO:   Uploading ticket #277
+   .  done, issue #277
+INFO:   Uploading ticket #278
+   ..  done, issue #278
+INFO: Ticket #279: Inserting reference to attachment 'portaudio-compilerwarnings-clang'
+INFO: Ticket #279: Inserting reference to attachment 'portaudio-compilerwarnings'
+INFO:   Uploading ticket #279
+   .  done, issue #279
+WARNING: Ticket #280.1: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/4022683'
+INFO:   Uploading ticket #280
+   ..  done, issue #280
+INFO:   Uploading ticket #281
+   .  done, issue #281
+INFO:   Uploading ticket #282
+   .  done, issue #282
+INFO:   Uploading ticket #283
+   ..  done, issue #283
+INFO:   Uploading ticket #284
+   .  done, issue #284
+INFO:   Uploading ticket #285
+   .  done, issue #285
+INFO:   Uploading ticket #286
+   .....  done, issue #286
+WARNING: Ticket #287.5: Link to Assembla: 'http://app.assembla.com/spaces/portaudio/git/merge_requests/7097201'
+INFO:   Uploading ticket #287
+   ....  done, issue #287
+INFO:   Uploading ticket #288
+   .  done, issue #288
+INFO:   Uploading ticket #289
+   .  done, issue #289
+INFO:   Uploading ticket #290
+   .  done, issue #290
+INFO:   Uploading ticket #291
+INFO:   Remaining ratelimit quota: 3863 (will reset at 2020-09-24 12:09:16+10:00)
+   .  done, issue #291
+INFO:   Uploading ticket #292
+   .  done, issue #292
+INFO:   Uploading ticket #293
+   .  done, issue #293
+INFO:   Uploading ticket #294
+   .  done, issue #294
+INFO:   Uploading ticket #295
+   ..  done, issue #295

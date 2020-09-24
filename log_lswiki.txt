@@ -1,0 +1,66 @@
+INFO: Running assembla2github.py v4 (2020-09-16)
+INFO: Reading configuration from 'config.json'
+INFO: Reading authentication data from 'auth.json'
+INFO: Parsing dumpfile '../assembla-data-20200917T1242/portaudio-2020-09-16/portaudio/dump.js'
+INFO:     Parsed 11836 lines
+INFO: Indexing the data
+INFO: Parsing wiki dumpfile 'scrapedwiki20200917T0114.dat'
+INFO:     Found 275 wiki page entries
+INFO: Scraping for user IDs
+INFO: Parsing user dumpfile 'scrapedusers_noemail_20200816T1941.dat'
+WARNING: Skipping user 'cGikqsGWSr368NeJe5cbCb'. Not mentioned in main dump file
+WARNING: Skipping user 'cPLs_a1C4r6ykTaIC_Qgzw'. Not mentioned in main dump file
+WARNING: Skipping user 'alp2nYPaCr4R95acwqjQXA'. Not mentioned in main dump file
+WARNING: Skipping user 'cZnZiKVtqr5ktcdmr6bg7m'. Not mentioned in main dump file
+WARNING: Skipping user 'bM9e1GU68r5iFcacwqjQWU'. Not mentioned in main dump file
+WARNING: Skipping user 'a36wzC2gWr6z_ccK-zJOy8'. Not mentioned in main dump file
+WARNING: Skipping user 'dBdyiyNwir5ipdacwqjQYw'. Not mentioned in main dump file
+WARNING: Skipping user 'cWNpq0QByr4zr3acwqjQWU'. Not mentioned in main dump file
+WARNING: Missing user data for ['dummy', 'b32LDmnZer5OocacwqEsg8', 'ao-Aaiyayr54kcdmr6bg7m', 'cQV8Ku58Or6QhcaIC_Qgzw', 'bf9TDOeiSr5RBcdmr6bg7m', 'bgT51UkFar36NDeJe5afGb']
+INFO:     Found 56 user entries
+INFO: Executing command 'lswiki'
+WARNING: ReleaseNotes.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/list.'
+WARNING: TestStatus.md: Wiki links to unknown page 'TestPlan'
+WARNING: TestPlan.md: Wiki links to unknown page 'TestStatus current'
+WARNING: TestPlan.md: Link to Assembla: 'http://www.assembla.com/code/portaudio/subversion/nodes/portaudio/trunk/qa/loopback/README.txt'
+WARNING: DeveloperGuidelines.md: Wiki links to unknown page 'RulesForSvnCommitters'
+WARNING: DeveloperGuidelines.md: Link to Assembla: 'http://www.assembla.com/code/portaudio/subversion/changesets'
+WARNING: AssemblaVsTracWikiMarkup.md: Wiki links to unknown page '` and `'
+WARNING: TasksForNewContributors.md: Link to Assembla: 'http://www.assembla.com/spaces/arhHGeUuSr4k70eJe4gwI3/tickets/report/u165783'
+WARNING: AboutListReviewTickets.md: Link to Assembla: 'http://www.assembla.com/spaces/arhHGeUuSr4k70eJe4gwI3/tickets/report/u165793'
+WARNING: Platforms.md: Wiki links to unknown page 'Platforms Mac OS X'
+WARNING: RulesForGitCommitters.md: Link to Assembla: 'https://www.assembla.com/spaces/portaudio/team'
+WARNING: HowToUseCodeReview.md: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/nodes/1934/portaudio/branches'
+WARNING: HowToUseCodeReview.md: Link to Assembla: 'https://subversion.assembla.com/svn/portaudio/portaudio/trunk'
+WARNING: HowToUseCodeReview.md: Link to Assembla: 'https://subversion.assembla.com/svn/portaudio/portaudio/branches/azx_fix_underflow'
+WARNING: HowToUseCodeReview.md: Link to Assembla: 'https://subversion.assembla.com/svn/portaudio/portaudio/branches/versioning'
+WARNING: V20VersionABIChanges.md: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/nodes'
+WARNING: Administration_Log.md: Wiki links to unknown page '20160501 Migrate SVN To Git'
+WARNING: HotPlug.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/tickets/11/details?comment=65652633'
+WARNING: HotPlug.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/source/HEAD/portaudio/branches/hotplug'
+WARNING: HotPlug.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/tickets/11/details?comment=65652633'
+WARNING: HotPlug_SVN_Log.md: Link to Assembla: 'https://subversion.assembla.com/svn/portaudio/portaudio/branches/hotplug'
+WARNING: HotPlug_SVN_Log.md: Link to Assembla: 'https://subversion.assembla.com/svn/portaudio/portaudio/branches/hotplug'
+WARNING: HotPlug_SVN_Log.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/1663'
+WARNING: HotPlug_SVN_Log.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/1664'
+WARNING: HotPlug_SVN_Log.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/1665'
+WARNING: HotPlug_SVN_Log.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/1670'
+WARNING: HotPlug_SVN_Log.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/1671'
+WARNING: HotPlug_SVN_Log.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/1672'
+WARNING: HotPlug_SVN_Log.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/1673'
+WARNING: HotPlug_SVN_Log.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/1675'
+WARNING: HotPlug_SVN_Log.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/1676'
+WARNING: HotPlug_SVN_Log.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/1677'
+WARNING: NextReleasePlan.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3719213'
+WARNING: pa_stable_v190600_20161030.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/compare/portaudio'
+WARNING: pa_stable_v190600_20161030.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3881793'
+WARNING: pa_stable_v190600_20161030.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3751483'
+WARNING: pa_stable_v190600_20161030.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3829453'
+WARNING: pa_stable_v190600_20161030.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3848293'
+WARNING: pa_stable_v190600_20161030.md: Link to Assembla: 'https://assembla.com/code/portaudio/git/merge_requests/3643753'
+WARNING: pa_stable_v190600_20161030.md: Link to Assembla: 'https://assembla.com/code/portaudio/git/merge_requests/3772573'
+WARNING: pa_stable_v190600_20161030.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3915493'
+WARNING: MigrationToGitHub.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/4022683?section=files'
+WARNING: MigrationToGitHub.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/tickets/realtime_list?ticket=222'
+WARNING: MigrationToGitHub.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/tickets/realtime_list?ticket=223'
+WARNING: MigrationToGitHub.md: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/tickets/realtime_list?ticket=224'

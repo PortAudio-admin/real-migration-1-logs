@@ -1,0 +1,80 @@
+
+# Following the instructions here:
+# https://github.com/sveinse/assembla2github-portaudio/blob/master/README.md
+
+# (using user info from previous run)
+# (export dump from assembla: Admin > Backup and Data Export, untar it and update conf file)
+
+# scrape wiki using command below (had to first delete the "wikidump" line in the conf file otherwise it fails)
+
+venv\Scripts\python assembla2github.py wikiscrape scrapedwiki20200917T0114.dat
+
+# (create new repo portaudio-migration-test-3 https://github.com/new)
+# (description for final repo: "PortAudio - a C library for audio I/O")
+# (import from https://git.assembla.com/portaudio.git)
+# (manually create dummy first wiki page on GitHub)
+# (check/update config.json to use this repo name)
+
+# Wiki...
+
+# log_lswiki.txt
+
+venv\Scripts\python assembla2github.py lswiki -q > log_lswiki.txt 2>&1
+
+# wiki_after.txt
+# wiki_before.txt
+
+venv\Scripts\python assembla2github.py lswiki -B wiki_before.txt -A wiki_after.txt
+
+# WIKI CONVERSION STEP
+# log_wikiconvert.txt
+
+
+rmdir wikirepo # make sure old wikirepo dir is gone(!)
+
+venv\Scripts\python assembla2github.py wikiconvert wikirepo > log_wikiconvert.txt 2>&1
+
+cd wikirepo
+git push
+cd ..
+
+
+# Tickets...
+
+# log_lstickets.txt
+
+venv\Scripts\python assembla2github.py lstickets -q > log_lstickets.txt 2>&1
+
+# tickets_after.txt
+# tickets_before.txt
+
+venv\Scripts\python assembla2github.py lstickets -B tickets_before.txt -A tickets_after.txt
+
+# log_lstickets_assembla.txt
+
+venv\Scripts\python assembla2github.py lstickets > log_lstickets_assembla.txt 2>&1
+
+# TICKET CONVERSION STEP
+# log_ticketsconvert.txt
+
+venv\Scripts\python assembla2github.py ticketsconvert > log_ticketsconvert.txt 2>&1
+
+# log_lstickets_github.txt
+
+venv\Scripts\python assembla2github.py lstickets -g > log_lstickets_github.txt 2>&1
+
+# (Diff logs against previous)
+
+# Upload logs...
+
+# (Create new repo on GitHub real-migration-1-logs)
+
+cd ..
+cd real-migration-1-logs
+
+git init
+git add *
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/PortAudio-admin/real-migration-1-logs
+git push -u origin master

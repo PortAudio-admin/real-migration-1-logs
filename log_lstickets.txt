@@ -1,0 +1,95 @@
+INFO: Running assembla2github.py v4 (2020-09-16)
+INFO: Reading configuration from 'config.json'
+INFO: Reading authentication data from 'auth.json'
+INFO: Parsing dumpfile '../assembla-data-20200917T1242/portaudio-2020-09-16/portaudio/dump.js'
+INFO:     Parsed 11836 lines
+INFO: Indexing the data
+INFO: Parsing wiki dumpfile 'scrapedwiki20200917T0114.dat'
+INFO:     Found 275 wiki page entries
+INFO: Scraping for user IDs
+INFO: Parsing user dumpfile 'scrapedusers_noemail_20200816T1941.dat'
+WARNING: Skipping user 'cGikqsGWSr368NeJe5cbCb'. Not mentioned in main dump file
+WARNING: Skipping user 'cPLs_a1C4r6ykTaIC_Qgzw'. Not mentioned in main dump file
+WARNING: Skipping user 'alp2nYPaCr4R95acwqjQXA'. Not mentioned in main dump file
+WARNING: Skipping user 'cZnZiKVtqr5ktcdmr6bg7m'. Not mentioned in main dump file
+WARNING: Skipping user 'bM9e1GU68r5iFcacwqjQWU'. Not mentioned in main dump file
+WARNING: Skipping user 'a36wzC2gWr6z_ccK-zJOy8'. Not mentioned in main dump file
+WARNING: Skipping user 'dBdyiyNwir5ipdacwqjQYw'. Not mentioned in main dump file
+WARNING: Skipping user 'cWNpq0QByr4zr3acwqjQWU'. Not mentioned in main dump file
+WARNING: Missing user data for ['dummy', 'b32LDmnZer5OocacwqEsg8', 'ao-Aaiyayr54kcdmr6bg7m', 'cQV8Ku58Or6QhcaIC_Qgzw', 'bf9TDOeiSr5RBcdmr6bg7m', 'bgT51UkFar36NDeJe5afGb']
+INFO:     Found 56 user entries
+INFO: Executing command 'lstickets'
+WARNING:    Assembla ticket #223 missing, injecting dummy issue
+WARNING: Ticket #10: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/compare/portaudio'
+WARNING: Ticket #10.7: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/compare/portaudio'
+INFO: Ticket #11.6: Inserting reference to attachment 'portaudio-deviceschanged.patch'
+WARNING: Ticket #11.7: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3784323?section=commits'
+WARNING: Ticket #11.8: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3784323?section=commits'
+WARNING: Ticket #11.9: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3784323?section=commits'
+WARNING: Ticket #35: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/nodes/1930/portaudio/trunk/src/common/pa_converters.c'
+INFO: Ticket #54.5: Inserting reference to attachment 'pa_win_ds.c'
+INFO: Ticket #57.9: Inserting reference to attachment 'PA_AsioBlockingIo_20080212.zip'
+INFO: Ticket #58.6: Inserting reference to attachment 'Ticket58.patch'
+WARNING: Ticket #69: Wiki links to unknown page 'RulesForSvnCommitters'
+INFO: Ticket #90.2: Inserting reference to attachment 'CMakeLists.txt'
+INFO: Ticket #90.3: Inserting reference to attachment 'patest.cpp'
+INFO: Ticket #153.4: Inserting reference to attachment 'alsalessthan1.0.16.patch'
+WARNING: Ticket #158.3: Link to Assembla: 'https://www.assembla.com/spaces/portaudio/git/merge_requests/3218623'
+INFO: Ticket #168.2: Inserting reference to attachment 'pauint8_bug.txt'
+WARNING: Ticket #173.3: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/changesets/1922#commit/comment'
+INFO: Ticket #178.5: Inserting reference to attachment 'patest_suggested_vs_streaminfo_latency_44100_wmme.pdf'
+WARNING: Ticket #185.4: Reference to unknown attachment 'ccylRKsjGr4BoxacwqjQXA'
+INFO: Ticket #185.5: Inserting reference to attachment 'PA_latency_results_44100Hz_20110818.pdf'
+WARNING: Ticket #196.4: Link to Assembla: 'http://www.assembla.com/profile/dmitrykos'
+WARNING: Ticket #196.6: Link to Assembla: 'http://www.assembla.com/profile/dmitrykos'
+WARNING: Ticket #198: Change history inconsistency in {'tags': {'apple'}}. Expected final value {'tags': {'osx'}}
+INFO: Ticket #201.2: Inserting reference to attachment 'ticket_201_patest_enumerate_default_latency.patch'
+WARNING: Ticket #211: Link to Assembla: 'http://www.assembla.com/code/portaudio/subversion/changesets/1815'
+WARNING: Ticket #211: Link to Assembla: 'http://www.assembla.com/code/portaudio/subversion/changesets/1822'
+WARNING: Ticket #211: Link to Assembla: 'https://subversion.assembla.com/svn/portaudio/portaudio/branches/alsa_hw_endian_subdevice'
+INFO: Ticket #211.1: Inserting reference to attachment 'pa_linux_alsa.c'
+WARNING: Ticket #212: Link to Assembla: 'http://www.assembla.com/code/portaudio/subversion/changesets/1815'
+WARNING: Ticket #212: Link to Assembla: 'http://www.assembla.com/code/portaudio/subversion/changesets/1822'
+WARNING: Ticket #212: Link to Assembla: 'https://subversion.assembla.com/svn/portaudio/portaudio/branches/alsa_hw_endian_subdevice'
+INFO: Ticket #212.1: Inserting reference to attachment 'pa_linux_alsa.c'
+INFO: Ticket #216.1: Inserting reference to attachment 'mac_configure_patch.txt'
+WARNING: Ticket #220: Link to Assembla: 'https://subversion.assembla.com/svn/portaudio/portaudio/branches/OpenBSD_sndio'
+WARNING: Ticket #220: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/commit/1887'
+WARNING: Ticket #220.1: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/commit/1887'
+INFO: Ticket #224.1: Inserting reference to attachment 'portaudio_mme_ds_unicode_patch.zip'
+WARNING: Ticket #224.2: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/changesets/1925'
+WARNING: Ticket #224.3: Link to Assembla: 'https://www.assembla.com/code/portaudio/subversion/changesets/1927'
+WARNING: Ticket #229: Change history inconsistency in {'tags': {'apple'}}. Expected final value {'tags': {'osx'}}
+WARNING: Ticket #229.7: Link to Assembla: 'https://www.assembla.com/spaces/portaudio/git/merge_requests/3299213'
+WARNING: Ticket #229.10: Link to Assembla: 'https://assembla.com/code/portaudio/git/merge_requests/3299213'
+INFO: Ticket #240.1: Inserting reference to image 'prob_configure.png'
+INFO: Ticket #240.2: Inserting reference to image 'prob_configure.png'
+WARNING: Ticket #240.4: Link to Assembla: 'https://www.assembla.com/wiki/show/portaudio/ReleaseNotes'
+WARNING: Ticket #240.8: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/6183813'
+WARNING: Ticket #241: Link to Assembla: 'https://www.assembla.com/wiki/show/portaudio/ReleaseNotes'
+WARNING: Ticket #241.1: Link to Assembla: 'https://www.assembla.com/wiki/show/portaudio/ReleaseNotes'
+WARNING: Ticket #242: Link to Assembla: 'https://www.assembla.com/wiki/show/portaudio/ReleaseNotes'
+WARNING: Ticket #244.3: Link to Assembla: 'https://www.assembla.com/spaces/portaudio/subversion/commits/1966'
+INFO: Ticket #245.1: Inserting reference to attachment 'pa_bug.zip'
+INFO: Ticket #245.2: Inserting reference to attachment 'winfix.diff'
+WARNING: Ticket #248.4: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3790093'
+WARNING: Ticket #251.2: Reference to unknown attachment 'bI3ZfSArar5OkEdmr6CpXy'
+INFO: Ticket #251.5: Inserting reference to attachment 'pa_linux_alsa.c-cancelability_2.diff'
+INFO: Ticket #251.8: Inserting reference to attachment 'pa_linux_alsa.c-cancelability_4.diff'
+INFO: Ticket #251.9: Inserting reference to attachment 'pa_linux_alsa.c-cancelability_4.diff'
+WARNING: Ticket #251.11: Link to Assembla: 'https://assembla.com/code/portaudio/git/merge_requests/3834073'
+WARNING: Ticket #252.2: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3752003'
+WARNING: Ticket #252.3: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/3829453'
+WARNING: Ticket #255: Link to Assembla: 'https://app.assembla.com/wiki/show/portaudio/Notes_about_building_PortAudio_with_MinGW'
+WARNING: Ticket #257: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/subversion/commits/812'
+WARNING: Ticket #260.1: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/4012103'
+WARNING: Ticket #263.4: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/7612921?section=commits'
+WARNING: Ticket #263.5: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/7613051'
+INFO: Ticket #268.2: Inserting reference to attachment 'pa_linux_alsa.c'
+WARNING: Ticket #274.4: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/tickets/179-build-issues-on-os-x-10-6/details'
+WARNING: Ticket #274.6: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/6183813'
+WARNING: Ticket #274.7: Link to Assembla: 'https://assembla.com/code/portaudio/git/merge_requests/6183813'
+INFO: Ticket #279: Inserting reference to attachment 'portaudio-compilerwarnings-clang'
+INFO: Ticket #279: Inserting reference to attachment 'portaudio-compilerwarnings'
+WARNING: Ticket #280.1: Link to Assembla: 'https://app.assembla.com/spaces/portaudio/git/merge_requests/4022683'
+WARNING: Ticket #287.5: Link to Assembla: 'http://app.assembla.com/spaces/portaudio/git/merge_requests/7097201'
